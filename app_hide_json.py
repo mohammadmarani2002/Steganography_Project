@@ -2,7 +2,7 @@ import streamlit as st
 from stegano import lsb
 from PIL import Image
 import json
-#mport os
+import os
 
 st.set_page_config(page_title="Hide JSON in Image", page_icon="📁")
 st.title("📁 Hide & Reveal JSON File in Image")
